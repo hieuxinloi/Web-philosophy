@@ -18,7 +18,7 @@ export default function Header() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-[#1a1a1a]/95 backdrop-blur-sm border-b border-[#2a2a2a] transition-all duration-300">
       <div className="container mx-auto px-6 py-4 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
-          <h1 className="text-xl font-bold text-white">OPEN MUSEUM</h1>
+          <h1 className="text-xl font-bold text-white">Kinh tế chính trị Mác-Lênin</h1>
         </Link>
         <nav className="flex items-center gap-8">
           {navItems.map((item) => (

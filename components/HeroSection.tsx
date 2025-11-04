@@ -9,8 +9,6 @@ export default function HeroSection() {
         {/* Tiêu đề lớn */}
         <div className="text-center space-y-4 animate-slide-in-up">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-            Chương 5 – Mục 5.3:
-            <br />
             <span className="text-[#ffd700] gradient-text">
               Lợi ích kinh tế và Quan hệ lợi ích kinh tế ở Việt Nam
             </span>
@@ -51,22 +49,20 @@ export default function HeroSection() {
           </div>
         </div>
 
-        {/* Nội dung phân tích */}
+        {/* Phân tích mâu thuẫn lợi ích kinh tế */}
         <div className="space-y-6 animate-slide-in-up">
           <div className="bg-[#2a2a2a] rounded-lg p-8 border border-[#3a3a3a]">
-            <p className="text-lg leading-relaxed text-gray-300 mb-6">
-              <strong className="text-white">Video phân tích 6 nguy cơ lớn đang đe dọa nền kinh tế Việt Nam</strong>, 
-              rút ra bài học từ khủng hoảng tài chính châu Á 1997.
-            </p>
             <div className="bg-[#1a1a1a] p-4 rounded-lg border-l-4 border-[#ffd700] mb-6">
-              <p className="text-gray-300 italic">
-                <strong className="text-white">Điểm chung:</strong> Khủng hoảng không bùng nổ ồn ào, 
-                mà diễn ra âm thầm qua mất niềm tin, rút vốn, lạm phát và co cụm đầu tư.
+              <p className="text-gray-300 leading-relaxed">
+                Video trên tuy mang tính cảnh báo, nhưng lại phản ánh sinh động những mâu thuẫn lợi ích kinh tế trong nền kinh tế Việt Nam hiện nay.
+              </p>
+              <p className="text-gray-300 leading-relaxed mt-3">
+                <strong className="text-white">Sáu "nguy cơ" được nêu trong video thực chất là biểu hiện cụ thể của sự mất cân bằng lợi ích giữa các chủ thể kinh tế</strong> – bao gồm Nhà nước, doanh nghiệp, nhà đầu tư và người dân.
               </p>
             </div>
 
             <h3 className="text-2xl font-bold text-[#ffd700] mb-6">
-              Sáu nguy cơ chính của nền kinh tế Việt Nam
+              Phân tích mâu thuẫn lợi ích kinh tế từ 6 nguy cơ
             </h3>
 
             <div className="space-y-6">
@@ -74,55 +70,38 @@ export default function HeroSection() {
                 {
                   num: '1',
                   title: 'Suy giảm niềm tin của nhà đầu tư và người dân',
-                  points: [
-                    'Thị trường chứng khoán giảm mạnh, hàng trăm nghìn doanh nghiệp rút lui.',
-                    'Giới tinh hoa tài chính âm thầm chuyển tài sản ra nước ngoài.',
-                    'Dấu hiệu khủng hoảng bắt đầu từ niềm tin chứ không phải sụp đổ ngân hàng.',
-                  ]
+                  description: 'Thể hiện lợi ích của nhà đầu tư và người dân chưa được đảm bảo ổn định, khiến dòng vốn và tiêu dùng giảm sút.',
+                  analysis: '→ Đây là mâu thuẫn giữa kỳ vọng lợi ích cá nhân và hiệu quả lợi ích chung trong quản lý kinh tế.',
                 },
                 {
                   num: '2',
-                  title: 'Rút vốn âm thầm của doanh nghiệp và vốn ngoại',
-                  points: [
-                    'Các tập đoàn đa quốc gia cắt giảm đầu tư, chuyển hoạt động sang nước khác mà công chúng không hề hay biết.',
-                    'Hậu quả xuất hiện sau – tín dụng thắt chặt, việc làm giảm, thị trường trầm lắng.',
-                  ]
+                  title: 'Rút vốn ồ ạt và tâm lý thận trọng của doanh nghiệp, vốn ngoại',
+                  description: 'Các doanh nghiệp và nhà đầu tư nước ngoài có xu hướng giảm rót vốn do lo ngại rủi ro vĩ mô.',
+                  analysis: '→ Phản ánh xung đột lợi ích giữa lợi nhuận ngắn hạn và ổn định dài hạn, cũng như giữa lợi ích quốc gia và lợi ích tư nhân.',
                 },
                 {
                   num: '3',
-                  title: 'Lạm phát ngầm, bào mòn sức mua',
-                  points: [
-                    'CPI chỉ tăng 3.1% nhưng giá cả tăng nhanh hơn thu nhập.',
-                    'Người dân và doanh nghiệp nhỏ dần thích nghi mà không nhận ra giá trị đồng tiền giảm mạnh.',
-                    'Đây là "lạm phát thầm lặng" – nguy hiểm vì khó nhận biết nhưng ăn mòn nền kinh tế.',
-                  ]
+                  title: 'Lạm phát ngầm, bào mòn sức mua của người dân',
+                  description: 'Giá cả tăng khiến thu nhập thực tế của người lao động giảm, trong khi doanh nghiệp phải đối mặt với chi phí đầu vào cao.',
+                  analysis: '→ Đây là mâu thuẫn lợi ích giữa người lao động và doanh nghiệp, đòi hỏi sự điều tiết của Nhà nước qua chính sách tiền tệ, tiền lương và phúc lợi xã hội.',
                 },
                 {
                   num: '4',
-                  title: 'Khủng hoảng niềm tin vào đồng tiền',
-                  points: [
-                    'Người dân rút tiền tiết kiệm, mua vàng hoặc USD.',
-                    'Doanh nghiệp không vay vốn, ngân hàng thiếu thanh khoản.',
-                    'Các nhà giàu chuyển sang tài sản an toàn → bẫy thanh khoản hình thành.',
-                  ]
+                  title: 'Khủng hoảng niềm tin vào đồng tiền và hệ thống tài chính',
+                  description: 'Khi đồng nội tệ mất giá hoặc niềm tin suy giảm, dòng tiền dễ bị rút ra khỏi hệ thống ngân hàng.',
+                  analysis: '→ Thể hiện sự đứt gãy trong quan hệ lợi ích giữa người gửi tiền, tổ chức tín dụng và cơ quan điều tiết, làm giảm hiệu quả điều phối nguồn vốn trong xã hội.',
                 },
                 {
                   num: '5',
                   title: 'Doanh nghiệp nhỏ và vừa (SMEs) kiệt sức',
-                  points: [
-                    'Chiếm 97% tổng số doanh nghiệp, là xương sống của nền kinh tế.',
-                    'Bị bóp nghẹt bởi chi phí đầu vào cao, tín dụng khó tiếp cận, đơn hàng giảm.',
-                    'Nếu SMEs "chết hàng loạt", chuỗi cung ứng, việc làm và tiêu dùng đều sụp theo.',
-                  ]
+                  description: 'Nhóm doanh nghiệp này chịu thiệt thòi về vốn, thị phần và khả năng tiếp cận chính sách hỗ trợ.',
+                  analysis: '→ Phản ánh sự bất bình đẳng trong phân phối lợi ích, khi nhóm lớn có ưu thế vượt trội, ảnh hưởng đến tính cạnh tranh lành mạnh của nền kinh tế.',
                 },
                 {
                   num: '6',
-                  title: 'Rủi ro từ chính sách và khủng hoảng niềm tin xã hội',
-                  points: [
-                    'Các chính sách thay đổi đột ngột khiến nhà đầu tư mất niềm tin, trì hoãn kế hoạch.',
-                    'Người dân mất niềm tin vào phục hồi, "ôm tiền, mua vàng" thay vì đầu tư.',
-                    'Niềm tin kinh tế và xã hội bị "đóng băng" – nguy hiểm hơn cả suy giảm GDP.',
-                  ]
+                  title: 'Rủi ro tài chính và khủng hoảng niềm tin xã hội',
+                  description: 'Khi các nhóm lợi ích vận hành thiếu kiểm soát, nền kinh tế dễ mất cân đối và người dân mất niềm tin vào hệ thống.',
+                  analysis: '→ Đây là hệ quả của việc không hài hòa giữa lợi ích cá nhân, tập thể và xã hội, dẫn tới giảm động lực phát triển và niềm tin chung.',
                 },
               ].map((risk, idx) => (
                 <div key={idx} className="bg-[#1a1a1a] rounded-lg p-6 border border-[#3a3a3a] hover:border-[#ffd700]/50 transition-colors">
@@ -132,34 +111,28 @@ export default function HeroSection() {
                     </div>
                     <div className="flex-1">
                       <h4 className="text-lg font-semibold text-white mb-3">{risk.title}</h4>
-                      <ul className="space-y-2">
-                        {risk.points.map((point, pIdx) => (
-                          <li key={pIdx} className="text-gray-300 text-sm flex items-start gap-2">
-                            <span className="text-[#ffd700] mt-1">•</span>
-                            <span>{point}</span>
-                          </li>
-                        ))}
-                      </ul>
+                      <p className="text-gray-300 mb-3 leading-relaxed">{risk.description}</p>
+                      <p className="text-[#ffd700] font-medium leading-relaxed">{risk.analysis}</p>
                     </div>
                   </div>
                 </div>
               ))}
             </div>
 
-            {/* Thông điệp & Bài học */}
+            {/* Bài học rút ra */}
             <div className="mt-8 bg-gradient-to-br from-[#ffd700]/20 to-transparent rounded-lg p-6 border border-[#ffd700]/30">
               <h3 className="text-xl font-bold text-[#ffd700] mb-4">
-                Thông điệp & Bài học chính
+                👉 Bài học rút ra
               </h3>
-              <div className="space-y-3 text-gray-300">
+              <div className="space-y-3 text-gray-300 leading-relaxed">
                 <p>
-                  <strong className="text-white">Khủng hoảng kinh tế không bắt đầu bằng tiếng nổ lớn, mà bằng sự im lặng.</strong>
+                  Những "nguy cơ" kinh tế trên <strong className="text-white">không chỉ là vấn đề tài chính – tiền tệ</strong>, mà bản chất là <strong className="text-white">hệ quả của sự mất cân bằng lợi ích kinh tế</strong>.
                 </p>
                 <p>
-                  Ai hiểu sớm – chuẩn bị sớm (về dòng tiền, đầu tư, kiến thức) sẽ sống sót và tận dụng cơ hội.
+                  Để bảo đảm phát triển bền vững, <strong className="text-white">Nhà nước cần đóng vai trò điều tiết hài hòa lợi ích giữa cá nhân – doanh nghiệp – xã hội</strong>, thông qua cơ chế phân phối công bằng, chính sách ổn định và minh bạch.
                 </p>
                 <p className="text-[#ffd700] font-semibold">
-                  Nhận thức và kỷ luật tài chính là tài sản quý hơn vàng hay bất động sản trong thời khủng hoảng.
+                  Chỉ khi lợi ích được cân bằng, nền kinh tế mới duy trì được niềm tin, động lực và tính ổn định lâu dài.
                 </p>
               </div>
             </div>

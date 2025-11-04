@@ -8,7 +8,7 @@ export default function Footer() {
           <div className="flex items-center gap-2">
             <Link href="/" className="flex items-center gap-2">
               <p className="text-gray-400 text-sm hover:text-[#ffd700] transition-colors">
-                © 2024 Open Museum - Giáo trình Kinh tế chính trị
+                © 2024 Kinh tế chính trị Mác-Lênin - Giáo trình Kinh tế chính trị
               </p>
             </Link>
           </div>

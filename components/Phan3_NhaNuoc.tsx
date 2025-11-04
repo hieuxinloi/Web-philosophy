@@ -173,7 +173,7 @@ export default function Phan3_NhaNuoc() {
         <div className="text-center space-y-4">
           <h2 className="text-4xl md:text-5xl font-bold">
             <span className="text-white">Phần 3: </span>
-            <span className="text-[#ffd700]">Vai trò của Nhà nước (5.3.2)</span>
+            <span className="text-[#ffd700]">Vai trò của Nhà nước</span>
           </h2>
           <div className="w-32 h-1 bg-[#ffd700] mx-auto"></div>
         </div>

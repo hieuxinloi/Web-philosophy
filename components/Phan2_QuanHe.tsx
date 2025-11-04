@@ -73,7 +73,7 @@ export default function Phan2_QuanHe() {
         <div className="text-center space-y-4">
           <h2 className="text-4xl md:text-5xl font-bold">
             <span className="text-white">Phần 2: </span>
-            <span className="text-[#ffd700]">Quan hệ lợi ích kinh tế (5.3.1.2)</span>
+            <span className="text-[#ffd700]">Quan hệ lợi ích kinh tế</span>
           </h2>
           <div className="w-32 h-1 bg-[#ffd700] mx-auto"></div>
         </div>
@@ -89,26 +89,9 @@ export default function Phan2_QuanHe() {
               Quan hệ LIKT là sự thiết lập những tương tác, mối liên hệ giữa các chủ thể (con người, tổ chức, cộng đồng) 
               trong quá trình hoạt động kinh tế nhằm mục tiêu xác lập LIKT của mình.
             </p>
-            <p className="text-gray-300 leading-relaxed text-lg mb-6 italic">
+            <p className="text-gray-300 leading-relaxed text-lg italic">
               Nói đơn giản: Đó là các mối quan hệ "lợi ích" đan xen, ràng buộc lẫn nhau giữa các bên khi cùng tham gia vào nền kinh tế.
             </p>
-            
-            {/* Mô hình tương tác */}
-            <div className="mt-8 bg-[#1a1a1a] p-6 rounded-lg">
-              <h4 className="text-xl font-semibold mb-6 text-center text-[#ffd700]">
-                Mô hình tương tác giữa các chủ thể
-              </h4>
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                {['Người lao động', 'Doanh nghiệp', 'Nhà nước', 'Xã hội'].map((entity, idx) => (
-                  <div key={idx} className="bg-[#2a2a2a] p-4 rounded-lg border border-[#ffd700]/30 text-center">
-                    <p className="text-sm font-medium">{entity}</p>
-                  </div>
-                ))}
-              </div>
-              <div className="mt-6 text-center text-gray-400 text-sm">
-                [Sơ đồ mối quan hệ tương tác: ↔]
-              </div>
-            </div>
           </Card>
         </div>
 
@@ -164,29 +147,6 @@ export default function Phan2_QuanHe() {
               </div>
             </Card>
           </div>
-
-          {/* Sơ đồ "Vòng xoáy lợi ích" */}
-          <Card>
-            <h4 className="text-xl font-semibold mb-6 text-center text-[#ffd700]">
-              Vòng xoáy lợi ích
-            </h4>
-            <div className="text-center py-8">
-              <div className="inline-block relative">
-                <div className="relative w-64 h-64 mx-auto mb-4">
-                  <div className="absolute inset-0 border-4 border-[#ffd700]/50 rounded-full animate-spin-slow"></div>
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <div className="text-center">
-                      <p className="text-sm font-semibold">Mâu thuẫn</p>
-                      <p className="text-xs text-gray-400 mt-1">→ Động lực</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <p className="text-sm text-gray-400 mt-4">
-                [Infographic: Mâu thuẫn lợi ích có thể trở thành động lực phát triển khi được giải quyết đúng cách]
-              </p>
-            </div>
-          </Card>
         </div>
 
         {/* C. Một số quan hệ LIKT cơ bản */}
@@ -205,42 +165,85 @@ export default function Phan2_QuanHe() {
           </h3>
 
           <div className="space-y-6">
-            {[
-              { 
-                title: 'Trình độ phát triển của Lực lượng sản xuất (LLSX)', 
-                desc: 'LLSX càng cao, năng suất lao động càng lớn, "miếng bánh" kinh tế càng to, việc phân chia LIKT càng dễ dàng, mâu thuẫn giảm bớt.',
-                danhChung: 'Cuộc cách mạng 4.0 (LLSX) tạo ra nhóm lao động tri thức (IT, AI) có LIKT (thu nhập) cao vượt trội so với lao động giản đơn.'
-              },
-              { 
-                title: 'Địa vị của chủ thể trong hệ thống Quan hệ sản xuất', 
-                desc: 'Ai nắm giữ tư liệu sản xuất chủ yếu sẽ có vai trò quyết định trong việc phân phối LIKT.',
-                danhChung: 'Trong một công ty cổ phần, cổ đông (chủ sở hữu vốn) nhận lợi tức, ban giám đốc nhận lương và thưởng hiệu suất, còn người lao động nhận tiền công. Địa vị khác nhau dẫn đến phương thức nhận LIKT khác nhau.'
-              },
-              { 
-                title: 'Chính sách phân phối thu nhập của Nhà nước', 
-                desc: 'Xem chi tiết ở mục 5.3.2.2',
-                danhChung: ''
-              },
-              { 
-                title: 'Hội nhập kinh tế quốc tế', 
-                desc: 'Vừa mở ra cơ hội vừa tạo ra thách thức.',
-                danhChung: 'Cơ hội: EVFTA giúp thuế quan về 0%, tạo LIKT khổng lồ cho các doanh nghiệp xuất khẩu cá tra, tôm, dệt may của Việt Nam vào thị trường EU. Thách thức: Ngành chăn nuôi heo trong nước (lợi ích nhóm nông dân) gặp áp lực cạnh tranh gay gắt từ thịt heo châu Âu giá rẻ, có thể làm giảm LIKT của họ.'
-              },
-            ].map((factor, idx) => (
-              <Card key={idx} hover>
-                <div className="space-y-4">
-                  <h4 className="text-lg font-bold text-[#ffd700] mb-2">{factor.title}</h4>
-                  <p className="text-gray-300 text-sm mb-3">{factor.desc}</p>
-                  {factor.danhChung && (
-                    <div className="bg-[#1a1a1a] p-3 rounded border-l-4 border-[#ffd700]">
-                      <p className="text-sm text-gray-300">
-                        <strong className="text-white">Dẫn chứng:</strong> {factor.danhChung}
-                      </p>
-                    </div>
-                  )}
+            {/* Nhân tố 1 */}
+            <Card>
+              <div className="space-y-4">
+                <div>
+                  <h4 className="text-xl font-semibold mb-3 text-[#ffd700]">Thứ nhất</h4>
+                  <p className="text-gray-300 text-base font-semibold mb-3">
+                    Trình độ phát triển của lực lượng sản xuất
+                  </p>
+                  <p className="text-gray-300 text-sm leading-relaxed mb-4">
+                    LLSX càng cao, năng suất lao động càng lớn, "miếng bánh" kinh tế càng to, việc phân chia LIKT càng dễ dàng, mâu thuẫn giảm bớt.
+                  </p>
                 </div>
-              </Card>
-            ))}
+                <div className="bg-[#1a1a1a] p-4 rounded-lg border-l-4 border-[#ffd700]">
+                  <p className="text-sm text-gray-300 leading-relaxed">
+                    <strong className="text-white">Dẫn chứng:</strong> Cuộc cách mạng 4.0 (LLSX) tạo ra nhóm lao động tri thức (IT, AI) có LIKT (thu nhập) cao vượt trội so với lao động giản đơn.
+                  </p>
+                </div>
+              </div>
+            </Card>
+
+            {/* Nhân tố 2 */}
+            <Card>
+              <div className="space-y-4">
+                <div>
+                  <h4 className="text-xl font-semibold mb-3 text-[#ffd700]">Thứ hai</h4>
+                  <p className="text-gray-300 text-base font-semibold mb-3">
+                    Địa vị của chủ thể trong hệ thống quan hệ sản xuất xã hội
+                  </p>
+                  <p className="text-gray-300 text-sm leading-relaxed mb-4">
+                    Ai nắm giữ tư liệu sản xuất chủ yếu sẽ có vai trò quyết định trong việc phân phối LIKT.
+                  </p>
+                </div>
+                <div className="bg-[#1a1a1a] p-4 rounded-lg border-l-4 border-[#ffd700]">
+                  <p className="text-sm text-gray-300 leading-relaxed">
+                    <strong className="text-white">Dẫn chứng:</strong> Trong một công ty cổ phần, cổ đông (chủ sở hữu vốn) nhận lợi tức, ban giám đốc nhận lương và thưởng hiệu suất, còn người lao động nhận tiền công. Địa vị khác nhau dẫn đến phương thức nhận LIKT khác nhau.
+                  </p>
+                </div>
+              </div>
+            </Card>
+
+            {/* Nhân tố 3 */}
+            <Card>
+              <div className="space-y-4">
+                <div>
+                  <h4 className="text-xl font-semibold mb-3 text-[#ffd700]">Thứ ba</h4>
+                  <p className="text-gray-300 text-base font-semibold mb-3">
+                    Chính sách phân phối thu nhập của nhà nước
+                  </p>
+                  <p className="text-gray-300 text-sm leading-relaxed mb-4">
+                    Nhà nước sử dụng các công cụ như thuế, trợ cấp, an sinh xã hội để điều tiết và phân phối lại thu nhập, tạo sự công bằng hơn trong xã hội.
+                  </p>
+                </div>
+                <div className="bg-[#1a1a1a] p-4 rounded-lg border-l-4 border-[#ffd700]">
+                  <p className="text-sm text-gray-300 leading-relaxed">
+                    <strong className="text-white">Dẫn chứng:</strong> Thuế thu nhập cá nhân lũy tiến (người có thu nhập cao đóng thuế nhiều hơn) và các chương trình hỗ trợ người nghèo, bảo hiểm xã hội, y tế công giúp giảm bớt khoảng cách giàu nghèo, đảm bảo người có thu nhập thấp vẫn có cơ hội tiếp cận các dịch vụ cơ bản.
+                  </p>
+                </div>
+              </div>
+            </Card>
+
+            {/* Nhân tố 4 */}
+            <Card>
+              <div className="space-y-4">
+                <div>
+                  <h4 className="text-xl font-semibold mb-3 text-[#ffd700]">Thứ tư</h4>
+                  <p className="text-gray-300 text-base font-semibold mb-3">
+                    Hội nhập kinh tế quốc tế
+                  </p>
+                  <p className="text-gray-300 text-sm leading-relaxed mb-4">
+                    Vừa mở ra cơ hội vừa tạo ra thách thức.
+                  </p>
+                </div>
+                <div className="bg-[#1a1a1a] p-4 rounded-lg border-l-4 border-[#ffd700]">
+                  <p className="text-sm text-gray-300 leading-relaxed">
+                    <strong className="text-white">Dẫn chứng:</strong> Cơ hội: EVFTA giúp thuế quan về 0%, tạo LIKT khổng lồ cho các doanh nghiệp xuất khẩu cá tra, tôm, dệt may của Việt Nam vào thị trường EU. Thách thức: Ngành chăn nuôi heo trong nước (lợi ích nhóm nông dân) gặp áp lực cạnh tranh gay gắt từ thịt heo châu Âu giá rẻ, có thể làm giảm LIKT của họ.
+                  </p>
+                </div>
+              </div>
+            </Card>
           </div>
         </div>
 
