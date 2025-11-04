@@ -1,14 +1,14 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import HeroSection from '@/components/HeroSection';
+import TongKet from '@/components/TongKet';
 import LayoutWrapper from '@/components/LayoutWrapper';
 
-export default function Home() {
+export default function TongKetPage() {
   return (
     <LayoutWrapper>
       <main className="min-h-screen">
         <Header />
-        <HeroSection />
+        <TongKet />
         <Footer />
       </main>
     </LayoutWrapper>

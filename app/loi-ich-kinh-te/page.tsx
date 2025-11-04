@@ -1,14 +1,14 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import HeroSection from '@/components/HeroSection';
+import Phan1_LoiIch from '@/components/Phan1_LoiIch';
 import LayoutWrapper from '@/components/LayoutWrapper';
 
-export default function Home() {
+export default function LoiIchKinhTePage() {
   return (
     <LayoutWrapper>
       <main className="min-h-screen">
         <Header />
-        <HeroSection />
+        <Phan1_LoiIch />
         <Footer />
       </main>
     </LayoutWrapper>

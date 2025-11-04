@@ -1,14 +1,14 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import HeroSection from '@/components/HeroSection';
+import Phan3_NhaNuoc from '@/components/Phan3_NhaNuoc';
 import LayoutWrapper from '@/components/LayoutWrapper';
 
-export default function Home() {
+export default function VaiTroNhaNuocPage() {
   return (
     <LayoutWrapper>
       <main className="min-h-screen">
         <Header />
-        <HeroSection />
+        <Phan3_NhaNuoc />
         <Footer />
       </main>
     </LayoutWrapper>
