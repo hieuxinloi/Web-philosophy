@@ -26,7 +26,7 @@ export default function HeroSection() {
           <div className="prose prose-invert max-w-none text-center md:text-left">
             <p className="text-lg leading-relaxed text-gray-300">
               Trong bối cảnh Việt Nam xây dựng và phát triển nền kinh tế thị trường định hướng xã hội chủ nghĩa, 
-              việc nghiên cứu <strong className="text-white">lợi ích kinh tế (LIKT)</strong> và các quan hệ LIKT có ý nghĩa lý luận và thực tiễn vô cùng sâu sắc.
+              việc nghiên cứu <strong className="text-white">lợi ích kinh tế (LIKT)</strong> và <strong className="text-white">các quan hệ LIKT</strong> có ý nghĩa lý luận và thực tiễn vô cùng sâu sắc.
             </p>
             <p className="text-lg leading-relaxed text-gray-300 mt-4">
               Nền kinh tế thị trường, về bản chất, là sự vận hành dựa trên động lực của các lợi ích. 
@@ -122,7 +122,7 @@ export default function HeroSection() {
             {/* Bài học rút ra */}
             <div className="mt-8 bg-gradient-to-br from-[#ffd700]/20 to-transparent rounded-lg p-6 border border-[#ffd700]/30">
               <h3 className="text-xl font-bold text-[#ffd700] mb-4">
-                👉 Bài học rút ra
+                Bài học rút ra
               </h3>
               <div className="space-y-3 text-gray-300 leading-relaxed">
                 <p>
@@ -159,8 +159,11 @@ export default function HeroSection() {
             <Button href="/vai-tro-nha-nuoc" variant="secondary" className="hover-glow scale-on-hover">
               Vai trò của Nhà nước
             </Button>
+            <Button href="/van-de-dua-ra" variant="secondary" className="hover-glow scale-on-hover">
+              Vấn đề được đặt ra
+            </Button>
             <Button href="/tong-ket" variant="secondary" className="hover-glow scale-on-hover">
-              Tổng kết & Tương tác
+              Công nghệ & Minh bạch học thuật
             </Button>
           </div>
         </div>

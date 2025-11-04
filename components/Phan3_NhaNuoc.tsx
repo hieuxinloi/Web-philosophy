@@ -45,6 +45,9 @@ export default function Phan3_NhaNuoc() {
       content: (
         <div className="space-y-4">
           <p className="text-gray-300 leading-relaxed">
+            Nhà nước cần có các chính sách, trước hết là chính sách phân phối thu nhập nhằm đảm bảo hài hòa các lợi ích kinh tế.
+          </p>
+          <p className="text-gray-300 leading-relaxed">
             Đây là chức năng thể hiện rõ nhất định hướng Xã hội chủ nghĩa, nhằm giảm bất bình đẳng, phân hóa giàu nghèo.
           </p>
           
@@ -90,7 +93,19 @@ export default function Phan3_NhaNuoc() {
           <div className="space-y-3 mt-4">
             <div className="border-l-4 border-[#ffd700] pl-4">
               <p className="font-semibold text-white mb-1">Khuyến khích làm giàu hợp pháp:</p>
-              <p className="text-sm text-gray-300">(Như đã nêu ở mục 5.3.2.1).</p>
+              <p className="text-sm text-gray-300 mb-2">
+                <strong className="text-white">Dẫn chứng:</strong> Thủ tướng Chính phủ phát động phong trào "Toàn dân thi đua làm giàu" nhằm khuyến khích người dân làm giàu hợp pháp, tạo động lực phát triển kinh tế, góp phần xây dựng đất nước giàu mạnh.
+              </p>
+              <p className="text-xs text-gray-400 mt-1">
+                <a 
+                  href="https://xaydungchinhsach.chinhphu.vn/thu-tuong-phat-dong-toan-dan-thi-dua-lam-giau-119250518111151187.htm" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-[#ffd700] hover:underline"
+                >
+                  Xem thêm: Thủ tướng phát động toàn dân thi đua làm giàu
+                </a>
+              </p>
             </div>
             
             <div className="border-l-4 border-[#ffd700] pl-4">
@@ -100,20 +115,32 @@ export default function Phan3_NhaNuoc() {
                 trong những năm qua, xử lý hàng loạt đại án (FLC, Tân Hoàng Minh, Vạn Thịnh Phát...) là hành động kiểm soát các LIKT phi pháp, 
                 lạm dụng chức quyền, nhằm làm trong sạch thị trường và bảo vệ LIKT của xã hội.
               </p>
-            </div>
-            
-            <div className="border-l-4 border-red-500 pl-4">
-              <p className="font-semibold text-white mb-1">Dẫn chứng (Bảo vệ môi trường):</p>
-              <p className="text-sm text-gray-300">
-                Vụ việc công ty Formosa Hà Tĩnh (2016) xả thải gây ô nhiễm biển. Nhà nước đã can thiệp, xử phạt, 
-                buộc công ty phải bồi thường và khắc phục hậu quả, đặt LIKT xã hội (môi trường sống) lên trên LIKT của doanh nghiệp vi phạm.
+              <p className="text-xs text-gray-400 mt-1">
+                <a 
+                  href="https://btllang.mod.gov.vn/tin-tuc/tin-tong-hop/5468-chong-tham-nhung-cuoc-chien-dau-kien-tri-quyet-liet-va-hieu-qua.html" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-[#ffd700] hover:underline"
+                >
+                  Xem thêm: Chống tham nhũng - cuộc chiến đấu kiên trì, quyết liệt và hiệu quả
+                </a>
               </p>
             </div>
             
             <div className="border-l-4 border-[#ffd700] pl-4">
               <p className="font-semibold text-white mb-1">Tuyên truyền, giáo dục:</p>
-              <p className="text-sm text-gray-300">
-                Nâng cao đạo đức kinh doanh, trách nhiệm xã hội của doanh nghiệp.
+              <p className="text-sm text-gray-300 mb-2">
+                <strong className="text-white">Dẫn chứng:</strong> Nghị quyết số 68-NQ/TW của Bộ Chính trị về phát triển kinh tế tư nhân nhấn mạnh việc "đề cao đạo đức kinh doanh, phát huy trách nhiệm xã hội" của doanh nhân, doanh nghiệp. Đây là định hướng quan trọng để xây dựng đội ngũ doanh nhân có đạo đức, văn hóa kinh doanh, bản lĩnh, trí tuệ, tích cực thực hiện trách nhiệm xã hội.
+              </p>
+              <p className="text-xs text-gray-400 mt-1">
+                <a 
+                  href="https://tapchicongthuong.vn/nghi-quyet-so-68-nq-tw-voi-viec-de-cao-dao-duc-kinh-doanh--phat-huy-trach-nhiem-xa-hoi-cua-doanh-nhan--doanh-nghiep-trong-khu-vuc-kinh-te-tu-nhan-142480.htm" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-[#ffd700] hover:underline"
+                >
+                  Xem thêm: Nghị quyết số 68-NQ/TW về đạo đức kinh doanh và trách nhiệm xã hội
+                </a>
               </p>
             </div>
           </div>
@@ -142,7 +169,7 @@ export default function Phan3_NhaNuoc() {
           <div className="bg-[#1a1a1a] p-4 rounded-lg mt-4 border border-[#ffd700]/30">
             <h5 className="font-semibold mb-3 text-[#ffd700]">Dẫn chứng thực tiễn:</h5>
             <p className="text-sm text-gray-300 mb-3">
-              Khi xảy ra một vụ đình công của công nhân tại một nhà máy (mâu thuẫn giữa người lao động và chủ sử dụng lao động).
+              Ví dụ: Khi xảy ra một vụ đình công của công nhân tại một nhà máy (mâu thuẫn giữa người lao động và chủ sử dụng lao động).
             </p>
             
             <div className="space-y-2 mb-3">
@@ -152,7 +179,7 @@ export default function Phan3_NhaNuoc() {
               </p>
             </div>
             
-            <div className="space-y-2">
+            <div className="space-y-2 mb-3">
               <p className="text-sm font-semibold text-white">Hành động:</p>
               <p className="text-sm text-gray-300">
                 Tổ chức một cuộc đối thoại ba bên (Chủ doanh nghiệp - Đại diện Công đoàn/Công nhân - Cơ quan Nhà nước). 
@@ -160,6 +187,17 @@ export default function Phan3_NhaNuoc() {
                 (Bộ luật Lao động) để tìm ra tiếng nói chung (nhân nhượng) và sớm ổn định sản xuất.
               </p>
             </div>
+            
+            <p className="text-xs text-gray-400 mt-3">
+              <a 
+                href="https://thoibaotaichinhvietnam.vn/tin-vao-co-do-dat-nuoc-100645.html?utm_source=chatgpt.com" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-[#ffd700] hover:underline"
+              >
+                Xem thêm: Tin vào cơ đồ đất nước
+              </a>
+            </p>
           </div>
         </div>
       ),

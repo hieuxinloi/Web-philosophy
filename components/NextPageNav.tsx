@@ -22,8 +22,12 @@ const pageFlow: Record<string, NextPage> = {
     label: 'Vai trò của Nhà nước'
   },
   '/vai-tro-nha-nuoc': {
+    href: '/van-de-dua-ra',
+    label: 'Vấn đề được đặt ra'
+  },
+  '/van-de-dua-ra': {
     href: '/tong-ket',
-    label: 'Tổng kết & Tương tác'
+    label: 'Công nghệ & Minh bạch học thuật'
   },
   '/tong-ket': {
     href: '/',

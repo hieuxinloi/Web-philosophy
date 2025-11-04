@@ -18,10 +18,10 @@ export default function Phan1_LoiIch() {
           <div className="w-32 h-1 bg-[#ffd700] mx-auto"></div>
         </div>
 
-        {/* A. Khái niệm */}
+        {/* 1. Khái niệm */}
         <div className="space-y-8">
           <h3 className="text-3xl font-semibold text-[#ffd700]">
-            A. Khái niệm
+            1. Khái niệm
           </h3>
           
           <div className="grid md:grid-cols-2 gap-6">
@@ -48,17 +48,16 @@ export default function Phan1_LoiIch() {
           </div>
         </div>
 
-        {/* B. Bản chất và Biểu hiện */}
+        {/* 2. Bản chất và Biểu hiện */}
         <div className="space-y-8">
           <h3 className="text-3xl font-semibold text-[#ffd700]">
-            B. Bản chất và Biểu hiện
+            2. Bản chất và Biểu hiện
           </h3>
 
           <Card hover>
             <h4 className="text-xl font-bold mb-4 text-[#ffd700]">Bản chất</h4>
             <p className="text-gray-300 leading-relaxed mb-6">
-              LIKT phản ánh mục đích và động cơ của các hoạt động kinh tế. Con người tham gia vào lao động, 
-              sản xuất, kinh doanh trước hết là vì LIKT của mình.
+              Lợi ích kinh tế phản ánh mục đích và động cơ của các quan hệ giữa các chủ thể trong nền sản xuất xã hội.
             </p>
           </Card>
 
@@ -84,19 +83,19 @@ export default function Phan1_LoiIch() {
           </Card>
         </div>
 
-        {/* C. Vai trò của LIKT */}
+        {/* 3. Vai trò của LIKT */}
         <div className="space-y-8">
           <h3 className="text-3xl font-semibold text-[#ffd700]">
-            C. Vai trò của LIKT
+            3. Vai trò của LIKT
           </h3>
 
           <div className="grid md:grid-cols-2 gap-6">
             <Card hover>
               <h4 className="text-xl font-bold mb-4 text-[#ffd700]">
-                a. Là động lực trực tiếp của các hoạt động kinh tế
+                a. Là động lực trực tiếp của chủ thể và các hoạt động kinh tế - xã hội
               </h4>
               <p className="text-gray-300 leading-relaxed mb-4">
-                LIKT là "ngọn lửa" thúc đẩy mọi chủ thể. Không có LIKT, các hoạt động kinh tế sẽ trở nên trì trệ.
+                LIKT là "ngọn lửa" động lực mọi chủ thể. Không có LIKT, các hoạt động kinh tế sẽ trở nên trì trệ.
               </p>
               
               <div className="space-y-3 mt-4">

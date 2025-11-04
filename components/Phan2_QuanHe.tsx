@@ -78,10 +78,10 @@ export default function Phan2_QuanHe() {
           <div className="w-32 h-1 bg-[#ffd700] mx-auto"></div>
         </div>
 
-        {/* A. Khái niệm */}
+        {/* 1. Khái niệm */}
         <div className="space-y-8">
           <h3 className="text-3xl font-semibold text-[#ffd700]">
-            A. Khái niệm
+            1. Khái niệm
           </h3>
           
           <Card hover>
@@ -95,24 +95,37 @@ export default function Phan2_QuanHe() {
           </Card>
         </div>
 
-        {/* B. Sự thống nhất và mâu thuẫn */}
+        {/* 2. Sự thống nhất và mâu thuẫn */}
         <div className="space-y-8">
           <h3 className="text-3xl font-semibold text-[#ffd700]">
-            B. Sự thống nhất và mâu thuẫn
+            2. Sự thống nhất và mâu thuẫn
           </h3>
 
           <div className="grid md:grid-cols-2 gap-6">
             <Card hover>
               <h4 className="text-xl font-bold mb-4 text-green-400">a. Sự thống nhất</h4>
+              <p className="text-gray-300 mb-3">
+                Chúng thống nhất với nhau vì một chủ thể có thể trở thành bộ phận cấu thành của chủ thể khác.
+              </p>
               <p className="text-gray-300 mb-4">
-                Các chủ thể cần đến nhau để thực hiện lợi ích của mình. Lợi ích của bên này là điều kiện để thực hiện lợi ích của bên kia.
+                Các chủ thể kinh tế hành động vì mục tiêu chúng hoặc mục tiêu thống nhất với nhau thì các lợi ích kinh tế của các chủ thể đó thống nhất với nhau.
               </p>
               <div className="border-l-4 border-green-500 pl-4">
                 <p className="font-semibold text-white mb-1">Dẫn chứng (Giữa Doanh nghiệp và Người lao động):</p>
-                <p className="text-sm text-gray-300">
+                <p className="text-sm text-gray-300 mb-2">
                   Công ty PouYuen (DN FDI lớn) cần hàng chục ngàn công nhân để sản xuất giày xuất khẩu và tạo ra lợi nhuận. 
                   Ngược lại, hàng chục ngàn công nhân cần công ty để có việc làm và thu nhập ổn định. 
                   Đây là sự thống nhất "cộng sinh", hai bên cùng tồn tại và phát triển.
+                </p>
+                <p className="text-xs text-gray-400 mt-1">
+                  <a 
+                    href="https://vietstock.vn/2024/03/cong-ty-pouyuen-can-hang-ngan-lao-dong-tuyen-ca-nguoi-tren-40-tuoi-768-1160870.htm" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-[#ffd700] hover:underline"
+                  >
+                    Xem thêm: Công ty PouYuen cần hàng ngàn lao động, tuyển cả người trên 40 tuổi
+                  </a>
                 </p>
               </div>
             </Card>
@@ -130,38 +143,58 @@ export default function Phan2_QuanHe() {
                 </ul>
               </div>
               <div className="border-l-4 border-red-500 pl-4 mt-4">
-                <p className="font-semibold text-white mb-1">Dẫn chứng (Giữa Doanh nghiệp và Người lao động):</p>
-                <p className="text-sm text-gray-300">
+                <p className="font-semibold text-white mb-1">Dẫn chứng 1 (Giữa Doanh nghiệp và Người lao động):</p>
+                <p className="text-sm text-gray-300 mb-2">
                   Cũng tại PouYuen, mâu thuẫn nảy sinh khi đàm phán về lương tối thiểu, giờ làm thêm, tiền thưởng Tết. 
                   Doanh nghiệp muốn giữ chi phí lao động ở mức thấp để tăng lợi nhuận, còn công nhân (thông qua Công đoàn) 
                   muốn tăng lương, thưởng. Đây là mâu thuẫn trong việc phân chia kết quả.
                 </p>
+                <p className="text-xs text-gray-400 mt-1">
+                  <a 
+                    href="https://www.reuters.com/article/world/vietnam-hit-by-rare-strike-at-major-footwear-factory-idUSKBN0MR0J6/?utm_source=chatgpt.com" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-[#ffd700] hover:underline"
+                  >
+                    Xem thêm: Vietnam hit by rare strike at major footwear factory
+                  </a>
+                </p>
               </div>
               <div className="border-l-4 border-red-500 pl-4 mt-4">
-                <p className="font-semibold text-white mb-1">Dẫn chứng (Giữa các nhóm lợi ích):</p>
-                <p className="text-sm text-gray-300">
+                <p className="font-semibold text-white mb-1">Dẫn chứng 2 (Giữa các nhóm lợi ích):</p>
+                <p className="text-sm text-gray-300 mb-2">
                   Mâu thuẫn giữa các hãng taxi truyền thống (Vinasun, Mai Linh) và các hãng taxi công nghệ (Grab, Be). 
                   Các hãng truyền thống vận động hành lang chính sách để siết chặt quản lý taxi công nghệ (coi là cạnh tranh không bình đẳng), 
                   trong khi các hãng công nghệ lại muốn một môi trường pháp lý thông thoáng hơn.
+                </p>
+                <p className="text-xs text-gray-400 mt-1">
+                  <a 
+                    href="https://www.brandsvietnam.com/13093-cuoc-dua-vong-2-giua-taxi-cong-nghe-va-truyen-thong?utm_source=chatgpt.com" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-[#ffd700] hover:underline"
+                  >
+                    Xem thêm: Cuộc đua vòng 2 giữa taxi công nghệ và truyền thống
+                  </a>
                 </p>
               </div>
             </Card>
           </div>
         </div>
 
-        {/* C. Một số quan hệ LIKT cơ bản */}
+        {/* 3. Một số quan hệ LIKT cơ bản */}
         <div className="space-y-8">
           <h3 className="text-3xl font-semibold text-[#ffd700]">
-            C. Một số quan hệ LIKT cơ bản
+            3. Một số quan hệ LIKT cơ bản
           </h3>
           
           <Accordion items={accordionItems} />
         </div>
 
-        {/* D. Nhân tố ảnh hưởng */}
+        {/* 4. Nhân tố ảnh hưởng */}
         <div className="space-y-8">
           <h3 className="text-3xl font-semibold text-[#ffd700]">
-            D. Nhân tố ảnh hưởng
+            4. Nhân tố ảnh hưởng
           </h3>
 
           <div className="space-y-6">
@@ -169,10 +202,7 @@ export default function Phan2_QuanHe() {
             <Card>
               <div className="space-y-4">
                 <div>
-                  <h4 className="text-xl font-semibold mb-3 text-[#ffd700]">Thứ nhất</h4>
-                  <p className="text-gray-300 text-base font-semibold mb-3">
-                    Trình độ phát triển của lực lượng sản xuất
-                  </p>
+                  <h4 className="text-xl font-semibold mb-3 text-[#ffd700]">a. Trình độ phát triển của lực lượng sản xuất</h4>
                   <p className="text-gray-300 text-sm leading-relaxed mb-4">
                     LLSX càng cao, năng suất lao động càng lớn, "miếng bánh" kinh tế càng to, việc phân chia LIKT càng dễ dàng, mâu thuẫn giảm bớt.
                   </p>
@@ -189,10 +219,7 @@ export default function Phan2_QuanHe() {
             <Card>
               <div className="space-y-4">
                 <div>
-                  <h4 className="text-xl font-semibold mb-3 text-[#ffd700]">Thứ hai</h4>
-                  <p className="text-gray-300 text-base font-semibold mb-3">
-                    Địa vị của chủ thể trong hệ thống quan hệ sản xuất xã hội
-                  </p>
+                  <h4 className="text-xl font-semibold mb-3 text-[#ffd700]">b. Địa vị của chủ thể trong hệ thống quan hệ sản xuất xã hội</h4>
                   <p className="text-gray-300 text-sm leading-relaxed mb-4">
                     Ai nắm giữ tư liệu sản xuất chủ yếu sẽ có vai trò quyết định trong việc phân phối LIKT.
                   </p>
@@ -209,10 +236,7 @@ export default function Phan2_QuanHe() {
             <Card>
               <div className="space-y-4">
                 <div>
-                  <h4 className="text-xl font-semibold mb-3 text-[#ffd700]">Thứ ba</h4>
-                  <p className="text-gray-300 text-base font-semibold mb-3">
-                    Chính sách phân phối thu nhập của nhà nước
-                  </p>
+                  <h4 className="text-xl font-semibold mb-3 text-[#ffd700]">c. Chính sách phân phối thu nhập của nhà nước</h4>
                   <p className="text-gray-300 text-sm leading-relaxed mb-4">
                     Nhà nước sử dụng các công cụ như thuế, trợ cấp, an sinh xã hội để điều tiết và phân phối lại thu nhập, tạo sự công bằng hơn trong xã hội.
                   </p>
@@ -229,10 +253,7 @@ export default function Phan2_QuanHe() {
             <Card>
               <div className="space-y-4">
                 <div>
-                  <h4 className="text-xl font-semibold mb-3 text-[#ffd700]">Thứ tư</h4>
-                  <p className="text-gray-300 text-base font-semibold mb-3">
-                    Hội nhập kinh tế quốc tế
-                  </p>
+                  <h4 className="text-xl font-semibold mb-3 text-[#ffd700]">d. Hội nhập kinh tế quốc tế</h4>
                   <p className="text-gray-300 text-sm leading-relaxed mb-4">
                     Vừa mở ra cơ hội vừa tạo ra thách thức.
                   </p>
@@ -247,10 +268,10 @@ export default function Phan2_QuanHe() {
           </div>
         </div>
 
-        {/* E. Phương thức thực hiện LIKT */}
+        {/* 5. Phương thức thực hiện LIKT */}
         <div className="space-y-8">
           <h3 className="text-3xl font-semibold text-[#ffd700]">
-            E. Phương thức thực hiện LIKT
+            5. Phương thức thực hiện LIKT
           </h3>
 
           <div className="grid md:grid-cols-2 gap-6">

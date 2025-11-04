@@ -11,7 +11,8 @@ export default function Header() {
     { href: '/loi-ich-kinh-te', label: 'Lợi ích kinh tế' },
     { href: '/quan-he-likt', label: 'Quan hệ LIKT' },
     { href: '/vai-tro-nha-nuoc', label: 'Vai trò Nhà nước' },
-    { href: '/tong-ket', label: 'Tổng kết' },
+    { href: '/van-de-dua-ra', label: 'Vấn đề được đặt ra' },
+    { href: '/tong-ket', label: 'Công nghệ & Minh bạch' },
   ];
 
   return (
