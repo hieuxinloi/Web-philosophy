@@ -12,9 +12,9 @@ export default function YouTubeEmbed({ videoId, startTime, title }: YouTubeEmbed
   return (
     <div className="w-full">
       {title && (
-        <h3 className="text-xl font-semibold text-[#ffd700] mb-4">{title}</h3>
+        <h3 className="text-xl font-semibold text-blue-700 mb-4">{title}</h3>
       )}
-      <div className="relative w-full aspect-video rounded-lg overflow-hidden border border-[#3a3a3a] hover-glow">
+      <div className="relative w-full aspect-video rounded-lg overflow-hidden border border-blue-200 hover:border-yellow-400 shadow-md hover-glow transition-all duration-300">
         <iframe
           src={embedUrl}
           title={title || 'YouTube video player'}

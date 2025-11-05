@@ -17,20 +17,20 @@ export default function Accordion({ items }: AccordionProps) {
   return (
     <div className="space-y-4">
       {items.map((item, index) => (
-        <div key={index} className="border border-[#3a3a3a] rounded-lg overflow-hidden">
+        <div key={index} className="border border-blue-200 hover:border-yellow-400 transition-all duration-300 rounded-lg overflow-hidden shadow-sm">
           <button
             onClick={() => setOpenIndex(openIndex === index ? null : index)}
-            className="w-full px-6 py-4 bg-[#2a2a2a] hover:bg-[#333] transition-colors flex items-center justify-between text-left"
+            className="w-full px-6 py-4 bg-white hover:bg-blue-50 transition-colors flex items-center justify-between text-left border-b border-blue-100"
           >
-            <span className="font-semibold text-white">
+            <span className="font-semibold text-slate-800">
               {item.title}
             </span>
-            <span className={`text-[#ffd700] transition-transform ${openIndex === index ? 'rotate-180' : ''}`}>
+            <span className={`text-blue-600 transition-transform ${openIndex === index ? 'rotate-180' : ''}`}>
               ▼
             </span>
           </button>
           {openIndex === index && (
-            <div className="px-6 py-4 bg-[#1a1a1a] text-gray-300">
+            <div className="px-6 py-4 bg-blue-50 text-gray-700">
               {item.content}
             </div>
           )}

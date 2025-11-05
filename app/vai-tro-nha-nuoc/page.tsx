@@ -6,7 +6,7 @@ import LayoutWrapper from '@/components/LayoutWrapper';
 export default function VaiTroNhaNuocPage() {
   return (
     <LayoutWrapper>
-      <main className="min-h-screen">
+      <main className="min-h-screen bg-gradient-to-b from-blue-50 via-white to-blue-50">
         <Header />
         <Phan3_NhaNuoc />
         <Footer />

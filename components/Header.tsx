@@ -16,10 +16,10 @@ export default function Header() {
   ];
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-[#1a1a1a]/95 backdrop-blur-sm border-b border-[#2a2a2a] transition-all duration-300">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-blue-50 to-white backdrop-blur-sm border-b border-blue-300 shadow-md transition-all duration-300">
       <div className="container mx-auto px-6 py-4 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
-          <h1 className="text-xl font-bold text-white">Kinh tế chính trị Mác-Lênin</h1>
+          <h1 className="text-xl font-bold bg-gradient-to-r from-blue-800 to-blue-700 bg-clip-text text-transparent">Kinh tế chính trị Mác-Lênin</h1>
         </Link>
         <nav className="flex items-center gap-8">
           {navItems.map((item) => (
@@ -28,8 +28,8 @@ export default function Header() {
               href={item.href}
               className={`transition-colors ${
                 pathname === item.href
-                  ? 'text-[#ffd700] font-semibold'
-                  : 'text-white hover:text-[#ffd700]'
+                  ? 'text-blue-700 font-semibold bg-blue-100 px-3 py-1 rounded-lg'
+                  : 'text-blue-800 hover:text-blue-700 hover:bg-blue-50 px-3 py-1 rounded-lg'
               }`}
             >
               {item.label}

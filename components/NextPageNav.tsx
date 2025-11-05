@@ -45,11 +45,11 @@ export default function NextPageNav() {
     <div className="fixed bottom-8 right-8 z-40 animate-fade-in">
       <Link
         href={nextPage.href}
-        className="group bg-[#ffd700] hover:bg-[#e6c200] text-[#1a1a1a] px-6 py-4 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 flex items-center gap-3 hover-glow scale-on-hover"
+        className="group bg-blue-700 hover:bg-blue-800 text-white px-6 py-4 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 flex items-center gap-3 hover-glow scale-on-hover"
       >
         <div className="text-right">
-          <p className="text-xs text-gray-700 font-medium">Trang tiếp theo</p>
-          <p className="font-bold text-lg">{nextPage.label}</p>
+          <p className="text-xs text-white/90 font-medium">Trang tiếp theo</p>
+          <p className="font-bold text-lg text-white">{nextPage.label}</p>
         </div>
         <svg
           xmlns="http://www.w3.org/2000/svg"

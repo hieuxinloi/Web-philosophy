@@ -1,43 +1,58 @@
 @import "tailwindcss";
 
 :root {
-  --background: #1a1a1a;
-  --foreground: #ffffff;
-  --gold: #ffd700;
-  --gold-dark: #e6c200;
-  --gray-dark: #2a2a2a;
+  --background: #ffffff;
+  --foreground: #1e293b;
+  --primary: #2563eb;
+  --primary-dark: #1e40af;
+  --primary-light: #3b82f6;
+  --secondary: #60a5fa;
+  --accent: #93c5fd;
+  --gray-light: #f8fafc;
+  --gray-medium: #e2e8f0;
+  --border: #cbd5e1;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --color-gold: var(--gold);
-  --color-gold-dark: var(--gold-dark);
-  --color-gray-dark: var(--gray-dark);
+  --color-primary: var(--primary);
+  --color-primary-dark: var(--primary-dark);
+  --color-primary-light: var(--primary-light);
+  --color-secondary: var(--secondary);
+  --color-accent: var(--accent);
+  --color-gray-light: var(--gray-light);
+  --color-gray-medium: var(--gray-medium);
+  --color-border: var(--border);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
 body {
-  background: var(--background);
+  background: #ffffff !important;
   color: var(--foreground);
   font-family: var(--font-sans), 'Inter', 'Open Sans', 'Roboto', sans-serif;
 }
 
 html {
+  background: #ffffff !important;
   scroll-behavior: smooth;
 }
 
-.gold-accent {
-  color: var(--gold);
+main {
+  background: #ffffff !important;
 }
 
-.gold-border {
-  border-color: var(--gold);
+.blue-accent {
+  color: var(--primary);
 }
 
-.gold-bg {
-  background-color: var(--gold);
+.blue-border {
+  border-color: var(--primary);
+}
+
+.blue-bg {
+  background-color: var(--primary);
 }
 
 @keyframes spin-slow {
@@ -86,17 +101,17 @@ html {
 }
 
 /* Pulse animation for highlights */
-@keyframes pulse-gold {
+@keyframes pulse-blue {
   0%, 100% {
-    box-shadow: 0 0 0 0 rgba(255, 215, 0, 0.4);
+    box-shadow: 0 0 0 0 rgba(37, 99, 235, 0.4);
   }
   50% {
-    box-shadow: 0 0 0 10px rgba(255, 215, 0, 0);
+    box-shadow: 0 0 0 10px rgba(37, 99, 235, 0);
   }
 }
 
-.animate-pulse-gold {
-  animation: pulse-gold 2s infinite;
+.animate-pulse-blue {
+  animation: pulse-blue 2s infinite;
 }
 
 /* Hover glow effect */
@@ -105,7 +120,7 @@ html {
 }
 
 .hover-glow:hover {
-  box-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+  box-shadow: 0 0 20px rgba(37, 99, 235, 0.2);
   transform: translateY(-2px);
 }
 
@@ -120,7 +135,7 @@ html {
 
 /* Gradient text */
 .gradient-text {
-  background: linear-gradient(135deg, #ffd700 0%, #ffed4e 100%);
+  background: linear-gradient(135deg, #2563eb 0%, #3b82f6 50%, #60a5fa 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
